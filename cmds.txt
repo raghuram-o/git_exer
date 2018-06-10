@@ -1,0 +1,984 @@
+ 1049  ls
+ 1050  ls -lrt /dev/random
+ 1051  cat /proc/module
+ 1052  cat /proc/modules
+ 1053  grep rendom | cat /proc/modules
+ 1054  grep random | cat /proc/modules
+ 1055  grep random | /proc/modules
+ 1056  cat /proc/module
+ 1057  cat /proc/modules
+ 1058  ls /lib/modules/$(uname -r)/kernel/drivers
+ 1059  cd usb
+ 1060  cat usb
+ 1061  cd /lib/modules/$(uname -r)/kernel/drivers
+ 1062  ls
+ 1063  cd usb
+ 1064  ls
+ 1065  cd storage
+ 1066  ls
+ 1067  man ioctl
+ 1068  man 2 open
+ 1069  ls
+ 1070  ./prodcons2 
+ 1071  ./prodcons2
+ 1072  clear
+ 1073  ./a.out
+ 1074  ./frk6
+ 1075  ls
+ 1076  ./a.out
+ 1077  ls
+ 1078  gcc frk4.c
+ 1079  ./a.out
+ 1080  gcc frk4.c
+ 1081  ./a.out
+ 1082  gcc frk4.c
+ 1083  ./a.out
+ 1084  gcc frk4.c
+ 1085  ./a.out
+ 1086  gcc frk4.c
+ 1087  ./a.out
+ 1088  cd ../
+ 1089  cd 6_pipe/
+ 1090  ls
+ 1091  gcc pipe_ex.c 
+ 1092  ./a.out
+ 1093  ls
+ 1094  cd client_server/
+ 1095  cd Untitled\ Folder/
+ 1096  ls
+ 1097  ./cs
+ 1098  ls
+ 1099  gcc thread_mutex.c
+ 1100  gcc thread_mutex.c -lpthread
+ 1101  ./a.out
+ 1102  ls
+ 1103  gcc mainpipe.c server.c client.c -o csp
+ 1104  ./csp
+ 1105  cd .../
+ 1106  cd ../
+ 1107  cd .././
+ 1108  cd ../
+ 1109  ls
+ 1110  cd 7_FIFO/
+ 1111  ls
+ 1112  mkfifo fr
+ 1113  ls
+ 1114  gcc fifo_read.c
+ 1115  ./a.out
+ 1116  ls
+ 1117  ls -l
+ 1118  gcc fifo_read.c
+ 1119  ls -l
+ 1120  ./a.out
+ 1121  mkfifo myfifo
+ 1122  ./a.out
+ 1123  gcc fifo_read.c
+ 1124  ./a.out
+ 1125  PROGS
+ 1126  ls
+ 1127  cd server_client/
+ 1128  ls
+ 1129  PROGS
+ 1130  make
+ 1131  make clean
+ 1132  cd ./
+ 1133  cd ../
+ 1134  ls
+ 1135  cd 10_mutex/
+ 1136  ls
+ 1137  gcc pc.c -o pc
+ 1138  gcc pc.c -o pc -lpthread
+ 1139  pc 4
+ 1140  ./pc 4
+ 1141  cd ../
+ 1142  cd Select\ and\ poll/
+ 1143  ls
+ 1144  ls -l
+ 1145  ls
+ 1146  gcc poll2.c
+ 1147  ./a.out
+ 1148  ls
+ 1149  gcc poll1.c
+ 1150  ./a.out
+ 1151  ls
+ 1152  gcc multi2.c
+ 1153  ./a.out
+ 1154  ls
+ 1155  gcc -o wr fifo_write.c
+ 1156  ./wr
+ 1157  ps -eaf
+ 1158  make clean
+ 1159  exit
+ 1160  ls -al
+ 1161  ls
+ 1162  gcc 1_base_addr.c
+ 1163  ./a
+ 1164  ./a.out
+ 1165  valgrind a.out
+ 1166  valgrind
+ 1167  valgrind ./a.out
+ 1168  valgrind -v ./a.out
+ 1169  valgrind --leak-check=full ./a.out
+ 1170  ls
+ 1171  rm *.c~
+ 1172  ls
+ 1173  gcc 3_realloc.c -o rea
+ 1174  ./rea
+ 1175  ls
+ 1176  rm *.c~
+ 1177  ls
+ 1178  ./a.out
+ 1179  gcc 1_bitwise_basic.c 
+ 1180  ./a.out
+ 1181  gcc 2_bitwise.c 
+ 1182  ./a.out
+ 1183  ma select
+ 1184  man select
+ 1185  man poll
+ 1186  /proc/interrupts
+ 1187  sudo /proc/interrupts
+ 1188  sudo cat /proc/interrupts
+ 1189  cat /proc/interrupts
+ 1190  exit
+ 1191  lspci -v
+ 1192  exit
+ 1193  sudo su
+ 1194  sudo su
+ 1195  exit
+ 1196  ls
+ 1197  g++ sizeof.cpp
+ 1198  ./a.out
+ 1199  g++ sizeof.cpp
+ 1200  ./a.out
+ 1201  g++ sizeof.cpp
+ 1202  ./a.out
+ 1203  g++ sizeof.cpp
+ 1204  ./a.out
+ 1205  g++ sizeof.cpp
+ 1206  ./a.out
+ 1207  g++ sizeof.cpp
+ 1208  ./a.out
+ 1209  g++ sizeof.cpp
+ 1210  ./a.out
+ 1211  g++ sizeof.cpp
+ 1212  ./a.out
+ 1213  g++ sizeof.cpp
+ 1214  ./a.out
+ 1215  g++ sizeof.cpp
+ 1216  ./a.out
+ 1217  g++ sizeof.cpp
+ 1218  gdb ./a.out
+ 1219  g++ sizeof.cpp
+ 1220  ps -eaf | more
+ 1221  ls
+ 1222  gcc a.c
+ 1223  ls
+ 1224  g++ a.cpp
+ 1225  man fread
+ 1226  man strcmp
+ 1227  man socket
+ 1228  man bzero
+ 1229  man bind
+ 1230  sudo apt-get install git
+ 1231  git config --global user.name 'Raghu'
+ 1232  git config --global user.email 'raghuramorsu@gmail.com'
+ 1233  git commit
+ 1234  git config -l
+ 1235  git commit
+ 1236  man read
+ 1237  man open
+ 1238  man 2 open
+ 1239  man print
+ 1240  man 2 print
+ 1241  man printf
+ 1242  man 2 printf
+ 1243  man 3 printf
+ 1244  man read
+ 1245  man write
+ 1246  man 2 write
+ 1247  ls
+ 1248  cd Documents/
+ 1249  ls
+ 1250  cd SP
+ 1251  ls
+ 1252  cd Prac/
+ 1253  ls
+ 1254  gcc fork.c -o fr
+ 1255  man 2 read
+ 1256  gcc fork.c -o fr
+ 1257  man 2 open
+ 1258  gcc fork.c -o fr
+ 1259  ./fr
+ 1260  gcc fork.c -o fr
+ 1261  ./fr
+ 1262  ls
+ 1263  ./fr
+ 1264  gcc fork.c -o fr
+ 1265  ./fr
+ 1266  gcc fork.c -o fr
+ 1267  ./fr
+ 1268  ls
+ 1269  ls -l
+ 1270  chmod 442 for.txt
+ 1271  ls -l
+ 1272  vim for.txt
+ 1273  gcc fork.c -o fr
+ 1274  ./fr
+ 1275  vim for.txt
+ 1276  gcc fork.c -o fr
+ 1277  ./fr
+ 1278  vim fork.c
+ 1279  gcc fork.c -o fr
+ 1280  ./fr
+ 1281  ls
+ 1282  vim for.txt
+ 1283  sudo apt-get install git
+ 1284  lsblk
+ 1285  sudo apt-get install chrome
+ 1286  whereis google-chrome
+ 1287  /usr/bin/google-chrome
+ 1288  ps -eaf
+ 1289  ls
+ 1290  gcc -o fork.c fr
+ 1291  gcc fork.c
+ 1292  ls
+ 1293  gcc fork.c
+ 1294  vim fork.c
+ 1295  ls
+ 1296  gcc fork.c 
+ 1297  uname -r
+ 1298  uname -a
+ 1299  fdisk -l
+ 1300  sudo fdisk -l
+ 1301  lsb_release -a
+ 1302  cat /proc/version
+ 1303  lsblk
+ 1304  df
+ 1305  ifconfig
+ 1306  df
+ 1307  du
+ 1308  ls
+ 1309  man du
+ 1310  cd Documents/
+ 1311  ls
+ 1312  cscope -d
+ 1313  man sigset_t
+ 1314  cd ../
+ 1315  cscope -d
+ 1316  ls
+ 1317  gcc mainpipe.c -o m
+ 1318  gcc client.c server.c mainpipe.c -o m
+ 1319  ./m
+ 1320  gcc -g mainpipe.c
+ 1321  gcc -g mainpipe.c server.c client.c
+ 1322  ls
+ 1323  gdb a.out
+ 1324  ps -eaf
+ 1325  ls
+ 1326  ./a.out &
+ 1327  ./a.out
+ 1328  ./a.out &
+ 1329  ls
+ 1330  gcc client.c -o c
+ 1331  gcc server.c -o s
+ 1332  ls
+ 1333  clear
+ 1334  ls
+ 1335  gdb m
+ 1336  gcc mainpipe.c -o mainpipe
+ 1337  gcc mainpipe.c -o mainpipe server.C client.c -o mainpipe
+ 1338  gcc mainpipe.c mainpipe server.C client.c -o mainpipe
+ 1339  gcc mainpipe.c mainpipe server.c client.c -o mainpipe
+ 1340  gcc mainpipe.c server.c client.c -o mainpipe
+ 1341  ./mainpipe 
+ 1342  ./a.out
+ 1343  chmod
+ 1344  ls -l
+ 1345  sudo su
+ 1346  sudo add-apt-repository ppa:plushuang-tw/uget-stable
+ 1347  sudo apt-get update
+ 1348  sudo apt-get install uget
+ 1349  lsusb&&lspci
+ 1350  sudo su
+ 1351  ps -eaf
+ 1352  ps -eaf | grep ryth
+ 1353  exit
+ 1354  ls
+ 1355  sudo su
+ 1356  exit
+ 1357  ls
+ 1358  rm client
+ 1359  ls
+ 1360  gcc server_int.c -o server
+ 1361  vim server_i
+ 1362  vim server_int.c 
+ 1363  ls
+ 1364  ./client 2345 127.0.0.5
+ 1365  ls
+ 1366  gcc client.c -o client
+ 1367  ls
+ 1368  ./client 2345 127.0.0.5
+ 1369  ls
+ 1370  gcc server_int.c -o server
+ 1371  ls
+ 1372  ./server 2345 127.0.0.5
+ 1373  ls
+ 1374  ./client 3456 127.0.0.5
+ 1375  ls
+ 1376  gcc server_conc.c -o servercon
+ 1377  ./servercon 3456 128.0.0.5
+ 1378  ./servercon 3456 127.0.0.5
+ 1379  hack
+ 1380  man strlen
+ 1381  man strcmp
+ 1382  user
+ 1383  sudo su
+ 1384  ls
+ 1385  ls -il
+ 1386  ls -l
+ 1387  chmod 666 strcmp.cpp 
+ 1388  sudo chmod 666 strcmp.cpp
+ 1389  ls
+ 1390  ls -l
+ 1391  ls
+ 1392  ls -l
+ 1393  gcc tr1.c -lpthread
+ 1394  ls -l
+ 1395  ./a.out
+ 1396  gcc -E tr1.c -lpthread
+ 1397  gcc tr1.c -lpthread
+ 1398  ./a.out
+ 1399  gcc tr1.c -lpthread
+ 1400  ./a.out
+ 1401  man pthread_create
+ 1402  gcc tr1.c -lpthread
+ 1403  ./a.out
+ 1404  gcc tr1.c -lpthread
+ 1405  ./a.out
+ 1406  gcc tr1.c -lpthread
+ 1407  ./a.out
+ 1408  gcc tr1.c -lpthread
+ 1409  ./a.out
+ 1410  gcc tr1.c -lpthread
+ 1411  ./a.out
+ 1412  man pthread_exit
+ 1413  pthread_join
+ 1414  man pthread_join
+ 1415  gcc tr1.c -pthread
+ 1416  ./a.out
+ 1417  man scanf
+ 1418  man printf
+ 1419  man printf 2
+ 1420  man printf 3
+ 1421  man 3 printf
+ 1422  man spin_lock_irqsave
+ 1423  ls
+ 1424  ls -l
+ 1425  rm pc
+ 1426  ls
+ 1427  gcc pc.c -lpthread - o pcex
+ 1428  gcc pc.c -lpthread -o pcex
+ 1429  man pthread_setconcurrency()
+ 1430  man pthread_setconcurrency
+ 1431  vim pc.c
+ 1432  gcc pc.c -lpthread -o pcex
+ 1433  ./a.out 5
+ 1434  ls
+ 1435  ./pcex 5
+ 1436  clear
+ 1437  ls
+ 1438  gcc prodcons3.c -o pr3 -lpthread
+ 1439  ls
+ 1440  ./pr3 5
+ 1441  sudo su
+ 1442  sudo su
+ 1443  man copy_from_user
+ 1444  man device_create
+ 1445  man malloc
+ 1446  man register_chrdev
+ 1447  ls -rl
+ 1448  ls -Rl
+ 1449  cd Doc
+ 1450  cd Documents/
+ 1451  ls
+ 1452  cd SP
+ 1453  ls
+ 1454  cd 4_exec/
+ 1455  ls -Rl4
+ 1456  ls -Rl
+ 1457  gcc exec_ls.c
+ 1458  gcc execl_ls.c
+ 1459  ./a.out
+ 1460  gcc execl_ls.c
+ 1461  man waitpid
+ 1462  man exec
+ 1463  gcc execl_ls.c
+ 1464  man waitpid
+ 1465  man waitid
+ 1466  man waitpid
+ 1467  gcc execl_ls.c
+ 1468  ./a.out
+ 1469  gcc execl_ls.c
+ 1470  ./a.out
+ 1471  gcc execl_ls.c
+ 1472  ./a.out
+ 1473  man kill
+ 1474  gcc execl_ls.c -o exec_ls
+ 1475  ls -l
+ 1476  rm a.out
+ 1477  ls -l
+ 1478  man exec
+ 1479  gcc execlp_ls.c
+ 1480  ./a.out
+ 1481  gcc execlp_ls.c
+ 1482  ./a.out
+ 1483  gcc execlp_ls.c
+ 1484  ./a.out
+ 1485  gcc execlp_ls.c
+ 1486  ./a.out
+ 1487  ./exec_ls 
+ 1488  gcc execl_ls.c -o execl_ls 
+ 1489  ls -l
+ 1490  ./execl_ls
+ 1491  clear
+ 1492  ls
+ 1493  gcc execl_ls.c
+ 1494  ./a.out
+ 1495  gcc execl_ls.c
+ 1496  ./a.out
+ 1497  clear
+ 1498  man status
+ 1499  gcc -E execl_ls.c -o ase
+ 1500  gcc shell_full.c -o shell
+ 1501  gcc shell_full.c -o shell -w
+ 1502  ./shell 
+ 1503  cd ../
+ 1504  ls
+ 1505  cd 6_pipe/
+ 1506  ls
+ 1507  cd client_server/
+ 1508  ls
+ 1509  cd Untitled\ Folder/
+ 1510  ls
+ 1511  gcc mainpipe.c client.c server.c -o half
+ 1512  ./half 
+ 1513  ls -l
+ 1514  make
+ 1515  makeclean
+ 1516  make clean
+ 1517  cleanmake
+ 1518  make all
+ 1519  gcc frk6.c
+ 1520  ./a.out
+ 1521  cd ../
+ 1522  cd 4_exec/
+ 1523  ls
+ 1524  gcc execvp_ls.c
+ 1525  ./a.out
+ 1526  ls
+ 1527  ls -l
+ 1528  ls -il
+ 1529  exit
+ 1530  ls -l
+ 1531  rm a.out 
+ 1532  gcc 3_realloc.c 
+ 1533  vim 3_realloc.c 
+ 1534  gcc 3_realloc.c 
+ 1535  ./a.out
+ 1536  valgring a.out
+ 1537  valgrind a.out
+ 1538  valgrind
+ 1539  valgrind ./a.out
+ 1540  valgrind ./a.out --leak-check=full
+ 1541  ./a.out
+ 1542  man calloc
+ 1543  cd Documents/
+ 1544  ls -il
+ 1545  cd /dev
+ 1546  ls
+ 1547  ls -il
+ 1548  gcc pipe_sig.c
+ 1549  ./a.out
+ 1550  gcc pipe_sig.c
+ 1551  ./a.out
+ 1552  gcc pipe_ls_wc.c
+ 1553  ./a.out
+ 1554  man exec
+ 1555  man pthread_create
+ 1556  man recvfrom
+ 1557  man fopen
+ 1558  man pthread_create
+ 1559  ls
+ 1560  gcc tr3.c -lpthread
+ 1561  ./a.out
+ 1562  man pthread_exit
+ 1563  ls
+ 1564  gcc 1_pre_post.c 
+ 1565  ./a.out
+ 1566  cd ../
+ 1567  ls
+ 1568  cd 14_union/
+ 1569  ls
+ 1570  gcc 3_assecc_union.c
+ 1571  ./a.out
+ 1572  ./a.out -b
+ 1573  man pthread_create
+ 1574  man fputc
+ 1575  man read
+ 1576  man write
+ 1577  man write 2
+ 1578  man write 3
+ 1579  man pipe
+ 1580  ls
+ 1581  gcc 1.c
+ 1582  ./a.out
+ 1583  gcc 2.c
+ 1584  ./a.out
+ 1585  ca /dev
+ 1586  cat /dev
+ 1587  cd /dev
+ 1588  ca ls
+ 1589  cat ls
+ 1590  ls -l
+ 1591  cd char
+ 1592  ls -l
+ 1593  cd ../
+ 1594  ls -l
+ 1595  exit
+ 1596  ls
+ 1597  gcc ll.c -o linked1
+ 1598  cd Documents/Data_Structrures_Algos/
+ 1599  ls
+ 1600  gcc ll.c
+ 1601  gcc seg.c -o seg
+ 1602  ./a.out
+ 1603  gcc seg.c -o seg
+ 1604  ./seg
+ 1605  gcc seg.c -o seg
+ 1606  ./seg
+ 1607  cd ../
+ 1608  ls -l
+ 1609  cd Data_Str_Algos/
+ 1610  ls
+ 1611  gcc ll.c -linked
+ 1612  man malloc
+ 1613  vim ll.c
+ 1614  gcc ll.c -linked
+ 1615  gcc ll.c -o linked
+ 1616  ./linked 
+ 1617  gcc ll.c -o linked
+ 1618  ./linked 
+ 1619  gcc ll.c -o linked
+ 1620  ./linked 
+ 1621  ls
+ 1622  gcc stack.c -o stack
+ 1623  ./stack 
+ 1624  gcc stack.c -o stack
+ 1625  ./stack 
+ 1626  gcc stack.c -o stack
+ 1627  ./stack 
+ 1628  gcc stack.c -o stack
+ 1629  ./stack 
+ 1630  gcc stack.c -o stack
+ 1631  ./stack 
+ 1632  clear
+ 1633  gcc circular_list.c -o cl
+ 1634  ./cl
+ 1635  gcc circular_list.c -o cl
+ 1636  ./cl
+ 1637  ls -l
+ 1638  gcc linked.c -o linked
+ 1639  ./linked
+ 1640  gcc linked.c -o linked
+ 1641  ./linked
+ 1642  clear
+ 1643  gcc linked.c -o linked
+ 1644  clear
+ 1645  ./linked
+ 1646  gcc linked.c -o linked
+ 1647  ./linked
+ 1648  clear
+ 1649  gcc linked.c -o linked
+ 1650  ./linked
+ 1651  ls
+ 1652  gcc -g iftest.c
+ 1653  gdb a.out
+ 1654  ./pr
+ 1655  cd ../
+ 1656  cd qualcomm/
+ 1657  ls
+ 1658  ./a.out
+ 1659  gcc -g 1.c
+ 1660  b 2
+ 1661  ./a.out
+ 1662  ./a.out b 2
+ 1663  gdb
+ 1664  gdb a.out
+ 1665  exit
+ 1666  ps -eaf
+ 1667  gcc revstring.c -o revs
+ 1668  ./revs
+ 1669  gcc revstring.c -o revs
+ 1670  ./revs
+ 1671  gcc revstring.c -o revs
+ 1672  ./revs
+ 1673  gcc revstring.c -o revs
+ 1674  ./revs
+ 1675  clear
+ 1676  gcc linked_list.c -o ll
+ 1677  ./ll
+ 1678  gcc linked_list.c -o ll
+ 1679  clear
+ 1680  ./ll
+ 1681  gcc linked_list.c -o ll
+ 1682  ./ll
+ 1683  gcc linked_list.c -o ll
+ 1684  ./ll
+ 1685  gcc linked_list.c -o ll
+ 1686  ./ll
+ 1687  clear
+ 1688  man malloc
+ 1689  man getrlimit
+ 1690  gcc linked_list.c -o ll
+ 1691  ./ll
+ 1692  gcc linked_list.c -o ll
+ 1693  ./ll
+ 1694  clear
+ 1695  gcc struct.c -o struct
+ 1696  ./struct
+ 1697  gcc struct.c -o struct
+ 1698  ./struct
+ 1699  clear
+ 1700  cd rnd/
+ 1701  ls
+ 1702  gcc strcmp.cpp -o sc
+ 1703  g++ strcmp.cpp -o sc
+ 1704  ./sc
+ 1705  g++ strcmp.cpp -o sc
+ 1706  ./sc
+ 1707  g++ strcmp.cpp -o sc
+ 1708  ./sc
+ 1709  g++ strcmp.cpp -o sc
+ 1710  ./sc
+ 1711  g++ strcmp.cpp -o sc
+ 1712  ./sc
+ 1713  g++ strcmp.cpp -o sc
+ 1714  ./sc
+ 1715  g++ strcmp.cpp -o sc
+ 1716  ./sc
+ 1717  ls
+ 1718  gcc static_scope.c -o st
+ 1719  ./st
+ 1720  gcc static_scope.c -o st
+ 1721  ./st
+ 1722  gcc static_scope.c -o st
+ 1723  man static
+ 1724  gcc static_scope.c static_scope2.c -o st
+ 1725  ./st
+ 1726  gcc static_scope.c static_scope2.c -o st
+ 1727  ./st
+ 1728  gcc static_scope.c static_scope2.c -o st
+ 1729  ./st
+ 1730  sudo su
+ 1731  sudo apt-get install lib6-armel-cross lib6-dev-armel-cross
+ 1732  sudp apt-get install biutils-arm-linux-gnuebi
+ 1733  sudo apt-get install binutils-arm-linux-gnueabi
+ 1734  ps
+ 1735  exit
+ 1736  sudo apt-get install gcc make gcc-arm-linux-gnueabi binutils-arm-linux-gnueabi
+ 1737  ls
+ 1738  cd Documents/
+ 1739  ls
+ 1740  cd arm/
+ 1741  gcc arm_hello.c -o arm_x86.o
+ 1742  gcc arm_hello.c -o arm_x86
+ 1743  vim arm_hello.c 
+ 1744  gcc arm_hello.c -o arm_x86
+ 1745  clear
+ 1746  file arm_x86
+ 1747  clear
+ 1748  ./arm_x86 
+ 1749  uname -a
+ 1750  arm-linux-gnueabi-gcc arm_hello.c -o arm_ar
+ 1751  file arm_hello.c 
+ 1752  file arm_ar 
+ 1753  ./arm_ar
+ 1754  ls -l
+ 1755  ls -il
+ 1756  ls -al
+ 1757  ls fl
+ 1758  ls -fl
+ 1759  arm-linux-gnueabi-gcc arm_hello.c -o arm_ar -static
+ 1760  ls -fl
+ 1761  ecit
+ 1762  exit
+ 1763  gcc -v
+ 1764  uname -r
+ 1765  sudo apt-get update
+ 1766  sudo apt-get-repository ppa:noobslab/macubuntu
+ 1767  ls /usr/bin/*session
+ 1768  sudo apt-get install unity-tweak-tool
+ 1769  sudo su
+ 1770  sudo apt-get install macbuntu-os-ithemes-lts-v7
+ 1771  ps -eaf
+ 1772  kill -9 6924
+ 1773  sudo kill -9 6924
+ 1774  sudo su
+ 1775  ps -eaf
+ 1776  ps -eaf | grep /var/lib/dpkg
+ 1777  sudo su
+ 1778  ps -eaf | grep /var/lib/dpkg
+ 1779  sudo apt-get install macbuntu-os-ithemes-lts-v7
+ 1780  sudo dpkg --configure -a
+ 1781  sudo apt-get install macbuntu-os-ithemes-lts-v7
+ 1782  unity-tweak-tool
+ 1783  sudo add-apt-repository ppa:noobslab/macbuntu
+ 1784  clear
+ 1785  sudo apt-get update
+ 1786  clear
+ 1787  sudo apt-get install slingscold
+ 1788  clear
+ 1789  sudo add-apt-repository ppa:noobslab/macbuntu
+ 1790  sudo apt-get update
+ 1791  clear
+ 1792  sudo apt-get install albert
+ 1793  clear
+ 1794  cd && wget -O Mac.po http://drive.noobslab.com/data/Mac/change-name-on-panel/mac.po
+ 1795  cd /usr/share/locale/en/LC_MESSAGES
+ 1796  sudo msgfmt -o unity.mo ~/Mac.po
+ 1797  rm ~/Mac.po
+ 1798  cd
+ 1799  wget -O mac-fonts.zip http://drive.noobslab.com/data/Mac/macfonts.zip
+ 1800  sudo unzip mac-fonts.zip -d /usr/share/fonts; rm mac-fonts.zip
+ 1801  sudo fc-cache -f -v
+ 1802  sudo apt-get install plank
+ 1803  clear
+ 1804  sudo add-apt-repository ppa:noobslab/macbuntu
+ 1805  sudo apt-get update
+ 1806  clear
+ 1807  sudo apt-get install macbuntu-os-plank-theme-lts-v7
+ 1808  clear
+ 1809  plank
+ 1810  start unity-tweak-tool
+ 1811  unity-tweak-tool
+ 1812  clear
+ 1813  albert
+ 1814  plank
+ 1815  unity
+ 1816  unity-tweak-tool
+ 1817  sudo apt-get install unity-lens-applications
+ 1818  sudo apt autoremove
+ 1819  clear
+ 1820  sudo apt-get purge unity-lens-applications
+ 1821  sudo apt-get install unity-lens-applications
+ 1822  exit
+ 1823  ls
+ 1824  g++ linkd.cpp -o lin
+ 1825  ./lin
+ 1826  g++ linkd.cpp -o lin
+ 1827  ./lin
+ 1828  g++ linkd.cpp -o lin
+ 1829  ./lin
+ 1830  exit
+ 1831  sudo apt-get install qemu
+ 1832  df -u
+ 1833  df --help
+ 1834  df
+ 1835  sudo su
+ 1836  sudo apt-get update
+ 1837  sudo su
+ 1838  cscope
+ 1839  cscope -R
+ 1840  git --version
+ 1841  sudo apt-get update
+ 1842  clear
+ 1843  sudo apt-get install repo
+ 1844  curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+ 1845  repo init -u https://github.com/OP-TEE/manifest.git -m rpi3.xml [-b master]
+ 1846  repo init -u https://github.com/OP-TEE/manifest.git -m rpi3.xml
+ 1847  repo sync
+ 1848  clear
+ 1849  ls
+ 1850  exit
+ 1851  cd /bin
+ 1852  mkdir repo
+ 1853  echo $PATH
+ 1854  sudo curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+ 1855  sudo mkdir repo
+ 1856  ls
+ 1857  cd repo
+ 1858  ls
+ 1859  cd ../
+ 1860  curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+ 1861  cd /
+ 1862  pwd
+ 1863  cd /home
+ 1864  pwd
+ 1865  ls
+ 1866  cd ra
+ 1867  cd raghuram/
+ 1868  mkdir repo
+ 1869  ls
+ 1870  mkdir bin
+ 1871  export PATH=~/bin:$PATH
+ 1872  curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+ 1873  cd bin/
+ 1874  ls
+ 1875  cd ..
+ 1876  ls
+ 1877  rmdir repo/
+ 1878  ls
+ 1879  chmod a+x ~/bin/repo
+ 1880  cd Documents/optee/
+ 1881  clear0
+ 1882  git config --global user.name "raghuram-o"
+ 1883  git config --global user.email "raghuramorsu1414@gmail.com"
+ 1884  sudo apt-get install android-tools-adb android-tools-fastboot autoconf automake bc bison build-essential cscope curl device-tree-compiler flex ftp-upload gdisk iasl libattr1-dev libc6:i386 libcap-dev libfdt-dev libftdi-dev libglib2.0-dev libhidapi-dev libncurses5-dev libpixman-1-dev libssl-dev libstdc++6:i386 libtool libz1:i386 make mtools netcat python-crypto python-serial python-wand unzip uuid-dev xdg-utils xterm xz-utils zlib1g-dev
+ 1885  df
+ 1886  exit
+ 1887  ls
+ 1888  gcc --version
+ 1889  clear
+ 1890  gcc 2_prgm.c
+ 1891  ./a.out
+ 1892  gcc 2_prgm.c
+ 1893  vim 2_prgm.c
+ 1894  gcc 2_prgm.c
+ 1895  vim 2_prgm.c
+ 1896  cd Documents/c_vish/
+ 1897  gcc datat.c 
+ 1898  ./a.out
+ 1899  clear
+ 1900  gcc datat.c 
+ 1901  ./a.out
+ 1902  clear
+ 1903  git --version 
+ 1904  git --list
+ 1905  git config --list
+ 1906  cd Documents/
+ 1907  ls
+ 1908  mkdir git_exer
+ 1909  cd git_exer/
+ 1910  git init
+ 1911  git repo
+ 1912  git status
+ 1913  ls -al
+ 1914  vim raghu_intro.txt
+ 1915  git status
+ 1916  git add raghu_intro.txt 
+ 1917  git commit -m "First commit"
+ 1918  git status
+ 1919  git pull origin master
+ 1920  git pull master
+ 1921  git push master
+ 1922  git pull
+ 1923  git
+ 1924  git status
+ 1925  git branch -a
+ 1926  git log
+ 1927  git push -u master
+ 1928  git config --global push.default -u master
+ 1929  git clone https://github.com/raghuram-o/git_exer.git
+ 1930  exit
+ 1931  ls
+ 1932  ls -a
+ 1933  g++ gcd.cpp 
+ 1934  ./a.out 
+ 1935  clear
+ 1936  ls
+ 1937  g++ gd.cpp 
+ 1938  ./a.out
+ 1939  g++ gd.cpp 
+ 1940  ./a.out
+ 1941  sudo apt-get update
+ 1942  clear
+ 1943  sudo apt-get install -f
+ 1944  restart
+ 1945  ls
+ 1946  cd Documents/
+ 1947  cd dsa/
+ 1948  vim 1_arr.c
+ 1949  ls
+ 1950  gcc 1_arr.c 
+ 1951  vim 1_arr.c
+ 1952  gcc 1_arr.c
+ 1953  ./a.out
+ 1954  vim 1_arr.c
+ 1955  clear
+ 1956  ls
+ 1957  rm a.out 
+ 1958  ls
+ 1959  gcc 2_linked.cpp 
+ 1960  g++ 2_linked.cpp 
+ 1961  ./a.out
+ 1962  ls
+ 1963  g++ 2_linked.cpp 
+ 1964  man malloc
+ 1965  g++ 2_linked.cpp 
+ 1966  ./a.out
+ 1967  g++ 2_linked.cpp 
+ 1968  clear
+ 1969  ./a.out
+ 1970  clear
+ 1971  g++ 2_linked.cpp
+ 1972  ./a.out
+ 1973  g++ 2_linked.cpp
+ 1974  ./a.out
+ 1975  g++ 2_linked.cpp
+ 1976  ./a.out
+ 1977  g++ 2_linked.cpp
+ 1978  ./a.out
+ 1979  g++ 2_linked.cpp
+ 1980  ./a.out
+ 1981  g++ 2_linked.cpp
+ 1982  ./a.out
+ 1983  lspci -nn
+ 1984  cat /proc/cmdline 
+ 1985  cd /sys
+ 1986  ls
+ 1987  cd
+ 1988  cd /dev
+ 1989  ls
+ 1990  ls -l
+ 1991  clear
+ 1992  firefox 
+ 1993  cd
+ 1994  srm-linux-gnueabi-gcc -v
+ 1995  arm-linux-gnueabi-gcc -v
+ 1996  clear
+ 1997  git init
+ 1998  git -h
+ 1999  git --info-path
+ 2000  cd Do
+ 2001  cd Documents/
+ 2002  ls
+ 2003  cd git_exer/
+ 2004  ls
+ 2011  git init
+ 2012  git checkout
+ 2013  ls
+ 2014  vi raghu_intro.txt 
+ 2015  git status
+ 2016  git add *
+ 2017  git status
+ 2018  git commit
+ 2019  git config --global raghuramorsu@gmail.com
+ 2020  git config --global user.email "raghuramorsu@gmail.com"
+ 2021  git config --global user.name "raghuram-o"
+ 2022  git who
+ 2023  git show
+ 2024  git commit
+ 2025  git status
+ 2026  ls
+ 2027  git checkout
+ 2028  git branch
+ 2029  ls
+ 2030  vi README.md
+ 2031  git add README.md 
+ 2032  git commit -m "first commit"
+ 2033  git status 
+ 2034  git push -u origin master
+ 2035  git remote add origin https://github.com/raghuram-o/git_exer.git
+ 2036  git push -u origin master
+ 2045  git commit -m "adding licence and ingore files"
+ 2046  git push -u origin master
