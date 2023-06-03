@@ -1,7 +1,3 @@
- 1049  ls
- 1050  ls -lrt /dev/random
- 1051  cat /proc/module
- 1052  cat /proc/modules
  1053  grep rendom | cat /proc/modules
  1054  grep random | cat /proc/modules
  1055  grep random | /proc/modules
