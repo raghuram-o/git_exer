@@ -138,7 +138,6 @@
  1190  exit
  1191  lspci -v
  1192  exit
- 1193  sudo su
  1194  sudo su
  1195  exit
  1196  ls
